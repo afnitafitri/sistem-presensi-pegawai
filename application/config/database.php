@@ -9,7 +9,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => 'hijabsyandana.net',
 	'username' => 'hijabsya_presensi',
 	'password' => '',
 	'database' => 'hijabsya_presensi',
