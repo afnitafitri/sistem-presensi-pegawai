@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hijabsya/public_html/
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp presensi.sql $DEPLOYPATH
+    - /bin/cp -R application $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R bukti $DEPLOYPATH
+    - /bin/cp -R system $DEPLOYPATH
